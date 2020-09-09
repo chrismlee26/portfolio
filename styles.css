@@ -1,0 +1,95 @@
+/* Margins for the document -- */
+
+html {
+background-color: silver;
+
+border: 25px inset black;
+border-color: black
+
+}
+
+a:link {color: white;}
+a:visited {color: grey;}
+a:hover {background: black;}
+
+
+header {
+    font-family: 'Helvetica Neue';
+    font-size: 1.5em;
+    font-weight: lighter;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+h1 {
+    font-family: 'Baskerville';
+    font-size: 2em;
+    font-weight: normal;
+
+
+    display: flex;
+    justify-content: center;   
+}
+
+h3, h4 {
+    font-family: 'Baskerville';
+    font-size: 1.5em;
+    font-weight: normal;
+    letter-spacing: 1.5px;
+
+    display: flex;
+    justify-content: center;   
+}
+
+p {
+    display: flex;
+    justify-content: center;   
+}
+
+article {
+    /* move text around */
+    font-family: 'Helvetica Neue';
+    font-size: 1.25em;
+    font-weight: lighter;
+}
+
+li {
+    display: flex;
+    justify-content: center;   
+
+}
+
+ul {
+    /*delete bulletpoints! */
+}
+
+image {
+    display: flex;
+    justify-content: center;   
+}
+
+footer {
+    display: flex;
+    justify-content: center;   
+}
+
+
+/*
+Typography 
+font-family
+font-size
+font-weight
+color
+layout
+flex
+margin
+padding
+background
+background-color
+border-color
+border-width
+border-style
+*/
