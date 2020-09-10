@@ -80,18 +80,18 @@ li {
     font-weight: lighter;
 }
 
-section {
+section {                         /* why won't this go to center???? */
     display: flex;
+    align-content: center;
     justify-content: center;
-    align-content: center;  
     flex-direction: column;
 }
-
 
 footer {
     display: flex;
     align-content: center;
-    flex-direction: column;
+    justify-content: center;
     gap: 7px;
 
+    margin-top: .5%;
 }
